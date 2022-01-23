@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Visie Padrões WEB</title>
-
+    <link rel="icon" href="imagem.png">
+    <title>Media do aluno</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregaScript()">
-    <h1 style="text-align: center; color: #00f">Média do aluno</h1>
+<body>
+    <h1>Calcule a média final do aluno com as 4 notas que ele recebeu, e veja se ele foi <span>aprovado</span> ou <span>reprovado</span></h1>
+    <p>Clique no botão abaixo para começar</p>
+    <input type="button" value="Começar" onclick="fazMedia()">
+    <h2 style="text-align: center; color: #00f">Média do aluno</h2>
     <div id="resposta"></div>
-    <button id="recarrega" style="width: 80px; height: 40px; margin-left: 585px; cursor:pointer;">Recarregar</button>
+    <button id="recarrega">Voltar</button>
     <script src="script.js"></script>
 </body>
 </html>
