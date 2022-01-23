@@ -13,6 +13,11 @@ function media(){
     return soma;
 }
 
+//Oculta o H2 e o botão voltar
+var h2 = document.querySelector('h2');
+h2.style.display="none";
+var voltar = document.querySelector('button');
+voltar.style.display="none";
 
 //Botão que recarrega a página
 document.getElementById("recarrega").addEventListener("click",()=>{
@@ -21,10 +26,12 @@ document.getElementById("recarrega").addEventListener("click",()=>{
 
 //Função que carrega o script principal com a função média
 function fazMedia(){
-    //Ocultar botão e texto começar ao receber um clique
+    //Ocultar h1, botão e texto começar ao receber um clique
+    var h1 = document.querySelector('h1');
     var comecar = document.querySelector('input');
     var texto = document.querySelector('p');
-    if(comecar && texto){
+    if(h1 && comecar && texto){
+        h1.style.display='none';
         comecar.style.display='none';
         texto.style.display='none';
     }
@@ -38,6 +45,12 @@ function fazMedia(){
         notas = notas.map(Number);
         contador++
     }
+
+    //Exibir H2 e o botão voltar
+    var h2 = document.querySelector('h2');
+    h2.style.display="block";
+    var voltar = document.querySelector('button');
+    voltar.style.display="block";
 
     resultado = document.getElementById("resposta");
 

@@ -102,6 +102,32 @@ button{
         margin-right: auto;
     }
 }
+@media screen and (max-width: 360px){
+    h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    input[type="button"]{
+        border: none;
+        border-radius: 1rem;
+        background-color: #0D0;
+        color: #FFF;
+        cursor: pointer;
+        padding: .7rem;
+        margin-left: 39%;
+        margin-right: auto;
+    }
+    button{
+        border: none;
+        background-color: rgb(0, 9, 128);
+        border-radius: 1rem;
+        color: rgb(238, 238, 238);
+        cursor: pointer;
+        padding: .7rem;
+        margin-left: 38.5%;
+        margin-right: auto;
+    }
+}
 @media screen and (max-width: 300px){
     h1 {
         font-size: 22px;
