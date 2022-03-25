@@ -4,6 +4,7 @@
 h1{
     font-size: 24px;
     text-align: center;
+    margin-top: 5%;
 }
 h1 > span:first-child{
     color: #0D0;
@@ -33,6 +34,14 @@ button{
     padding: .7rem;
     margin-left: 47.5%;
     margin-right: auto;
+}
+.nota-img{
+    display: flex;
+    justify-content: center;
+}
+.nota-img img{
+    width: 320px;
+    margin-top: 3%;
 }
 
 /* RESPONSIVO */
