@@ -26,15 +26,13 @@ document.getElementById("recarrega").addEventListener("click",()=>{
 
 //Função que carrega o script principal com a função média
 function fazMedia(){
-    //Ocultar h1, imagem, botão e texto começar ao receber um clique
+    //Ocultar h1, botão e texto começar ao receber um clique
     var h1 = document.querySelector('h1');
     var comecar = document.querySelector('input');
-    var imagem = document.querySelector('.nota-img');
     var texto = document.querySelector('p');
-    if(h1 && comecar && imagem && texto){
+    if(h1 && comecar && texto){
         h1.style.display='none';
         comecar.style.display='none';
-        imagem.style.display='none';
         texto.style.display='none';
     }
     //Alerta explicando ao usuário o que ele deve fazer
@@ -47,6 +45,9 @@ function fazMedia(){
         notas = notas.map(Number);
         contador++
     }
+
+    //Ocultar imagem inicial
+    document.querySelector('.nota-img').style.display='none';
 
     //Exibir H2 e o botão voltar
     var h2 = document.querySelector('h2');

@@ -66,6 +66,10 @@ button{
         margin-left: 46.5%;
         margin-right: auto;
     }
+    .nota-img img {
+        width: 300px;
+        margin-top: 6%;
+    }
 }
 @media screen and (max-width: 600px){
     input[type="button"]{
@@ -88,6 +92,10 @@ button{
         margin-left: 45.5%;
         margin-right: auto;
     }
+    .nota-img img {
+        width: 280px;
+        margin-top: 6%;
+    }
 }
 @media screen and (max-width: 400px){
     input[type="button"]{
@@ -109,6 +117,10 @@ button{
         padding: .7rem;
         margin-left: 42.5%;
         margin-right: auto;
+    }
+    .nota-img img {
+        width: 220px;
+        margin-top: 6%;
     }
 }
 @media screen and (max-width: 360px){
@@ -135,6 +147,10 @@ button{
         padding: .7rem;
         margin-left: 38.5%;
         margin-right: auto;
+    }
+    .nota-img img {
+        width: 180px;
+        margin-top: 6%;
     }
 }
 @media screen and (max-width: 300px){
